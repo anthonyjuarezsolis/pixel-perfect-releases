@@ -16,7 +16,7 @@ En [Releases](https://github.com/anthonyjuarezsolis/pixel-perfect-releases/relea
 | Mac con Intel | `Pixel-Perfect-<versión>-mac-x64.dmg` |
 | Windows (la mayoría) | `Pixel-Perfect-<versión>-win-x64.exe` |
 | Windows en ARM (Surface Pro X, Snapdragon) | `Pixel-Perfect-<versión>-win-arm64.exe` |
-| Linux | `Pixel-Perfect-<versión>-linux-x64.AppImage` o `.deb` |
+| Linux | `Pixel-Perfect-<versión>-linux-x86_64.AppImage` o `-linux-amd64.deb` |
 
 Cada release trae `SHA256SUMS.txt` para revisar que el archivo llegó entero (`shasum -a 256 <archivo>` en Mac y Linux, `certutil -hashfile <archivo> SHA256` en Windows).
 
@@ -26,7 +26,7 @@ Cada release trae `SHA256SUMS.txt` para revisar que el archivo llegó entero (`s
 
 **Windows.** Ejecuta el `.exe`. Como el instalador no está firmado, Windows SmartScreen muestra «Windows protegió tu PC»: toca **Más información → Ejecutar de todas formas**. Se instala solo para tu usuario y puedes elegir la carpeta.
 
-**Linux.** El `.AppImage` no se instala: dale permiso de ejecución (`chmod +x Pixel-Perfect-*.AppImage`) y ábrelo. En Debian o Ubuntu también sirve `sudo apt install ./Pixel-Perfect-<versión>-linux-x64.deb`.
+**Linux.** El `.AppImage` no se instala: dale permiso de ejecución (`chmod +x Pixel-Perfect-*.AppImage`) y ábrelo (si no abre, instala `libfuse2`). En Debian o Ubuntu también sirve `sudo apt install ./Pixel-Perfect-<versión>-linux-amd64.deb`.
 
 La app se actualiza sola en lo visual; cuando haga falta un instalador nuevo, aparece aquí.
 
