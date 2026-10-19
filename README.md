@@ -2,7 +2,7 @@
 
 Pixel Perfect compara un frame de Figma con la pantalla que de verdad se renderiza en el navegador y te dice qué diferencias se ven, de dónde vienen y cómo pasarlas a Jira. App de escritorio para Mac, Windows y Linux, en español e inglés.
 
-Página: **https://ajuarezso-pixel-perfect.web.app** (pronto con dominio propio).
+Página: **https://pixel-perfect-site.web.app** (pronto con dominio propio).
 
 Este repo solo publica los instaladores. El código no está aquí.
 
@@ -34,7 +34,7 @@ La app se actualiza sola en lo visual; cuando haga falta un instalador nuevo, ap
 
 ## English
 
-Pixel Perfect compares a Figma frame with the screen your browser actually renders, tells you which differences show, where they come from and how to send them to Jira. Desktop app for Mac, Windows and Linux, in English and Spanish. Website: https://ajuarezso-pixel-perfect.web.app. This repo only hosts the installers.
+Pixel Perfect compares a Figma frame with the screen your browser actually renders, tells you which differences show, where they come from and how to send them to Jira. Desktop app for Mac, Windows and Linux, in English and Spanish. Website: https://pixel-perfect-site.web.app. This repo only hosts the installers.
 
 - **Mac:** open the `.dmg` and drag the app to Applications. Until the app is signed by Apple, the first time **right-click → Open** and confirm (or System Settings → Privacy & Security → «Open Anyway»).
 - **Windows:** run the `.exe` (`win-x64` for most PCs, `win-arm64` for ARM). SmartScreen will warn because the installer isn't signed: **More info → Run anyway**.
