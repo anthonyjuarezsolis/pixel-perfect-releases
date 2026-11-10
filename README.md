@@ -2,7 +2,7 @@
 
 Pixel Perfect compara un frame de Figma con la pantalla que de verdad se renderiza en el navegador y te dice qué diferencias se ven, de dónde vienen y cómo pasarlas a Jira. App de escritorio para Mac, Windows y Linux, en español e inglés.
 
-Página: **https://pixel-perfect-site.web.app** (pronto con dominio propio).
+Página: **https://usepixelperfect.com**
 
 Este repo solo publica los instaladores. El código no está aquí.
 
@@ -22,7 +22,7 @@ Cada release trae `SHA256SUMS.txt` para revisar que el archivo llegó entero (`s
 
 ## Instalar
 
-**Mac.** Abre el `.dmg` y arrastra Pixel Perfect a Aplicaciones. Mientras la app no esté firmada por Apple, la primera vez macOS dice que no puede comprobar el desarrollador: haz **clic derecho → Abrir** y confirma. Si no aparece la opción, ve a Ajustes del Sistema → Privacidad y seguridad → «Abrir igualmente». Después abre normal.
+**Mac.** Abre el `.dmg` y arrastra Pixel Perfect a Aplicaciones. La app está firmada y notarizada por Apple: abre normal.
 
 **Windows.** Ejecuta el `.exe`. Como el instalador no está firmado, Windows SmartScreen muestra «Windows protegió tu PC»: toca **Más información → Ejecutar de todas formas**. Se instala solo para tu usuario y puedes elegir la carpeta.
 
@@ -34,9 +34,9 @@ La app se actualiza sola en lo visual; cuando haga falta un instalador nuevo, ap
 
 ## English
 
-Pixel Perfect compares a Figma frame with the screen your browser actually renders, tells you which differences show, where they come from and how to send them to Jira. Desktop app for Mac, Windows and Linux, in English and Spanish. Website: https://pixel-perfect-site.web.app. This repo only hosts the installers.
+Pixel Perfect compares a Figma frame with the screen your browser actually renders, tells you which differences show, where they come from and how to send them to Jira. Desktop app for Mac, Windows and Linux, in English and Spanish. Website: https://usepixelperfect.com. This repo only hosts the installers.
 
-- **Mac:** open the `.dmg` and drag the app to Applications. Until the app is signed by Apple, the first time **right-click → Open** and confirm (or System Settings → Privacy & Security → «Open Anyway»).
+- **Mac:** open the `.dmg` and drag the app to Applications. It is signed and notarized by Apple, so it opens normally.
 - **Windows:** run the `.exe` (`win-x64` for most PCs, `win-arm64` for ARM). SmartScreen will warn because the installer isn't signed: **More info → Run anyway**.
 - **Linux:** `chmod +x` the `.AppImage` and run it, or `sudo apt install ./<file>.deb`.
 - Check downloads against `SHA256SUMS.txt` in each release.
